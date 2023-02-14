@@ -9,14 +9,31 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-spring/web": "^9.6.1",
+    "@stitches/react": "^1.2.8",
+    "@tanstack/react-query": "^4.24.6",
+    "@tanstack/react-router": "0.0.1-beta.82",
+    "class-variance-authority": "^0.4.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "zod": "^3.20.6",
+    "zustand": "^4.3.3"
   },
   "devDependencies": {
+    "@tanstack/react-query-devtools": "^4.24.6",
+    "@types/node": "^18.13.0",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.52.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
-    "typescript": "^4.9.3",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "typescript": "*",
     "vite": "^4.1.0"
   }
 }
